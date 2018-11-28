@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+      margin:0;
+      width:100%;
+      background:#ffffff;
+    
+}
+
 h1 {
     font-family: quicksand, calibri;
 }
@@ -14,33 +22,37 @@ p {
     font-family: calibri;
 }
 
-body{
-    font-family: 'Noto Sans', sans-serif;
-      margin:0;
-      width:100%;
-      height:100vh;
-        background:#ffffff;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-  }
-  header{
-      width:100%; 
-      background:#ffffff;
-  }
+ul {
+    background-color: hsl(180, 39%, 69.8%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 2%;
+}
 
-  ul {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-end;
-      list-style: none;
-      margin: 4%;
-  }
+li {
+    display: block;
+    margin: 1% 2%;
+    transition-duration: 0.5s;
+}
 
-  li {
-    background-color: red;
-    margin: 0 2%;
-  }
+li:hover {
+    background-color: hsl(180, 30%, 69.8%);
+}
 
-  li:hover {
-      background-color: black;
-  }
+.row-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+}
+
+.sub {
+    border: solid hsl(180, 39%, 69.8%);
+    border-radius: 10px;
+    flex-basis: 0 0 33%;
+    margin-left: 2%;
+    padding: 50px;
+    text-align: center;
+}
