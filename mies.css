@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: quicksand, calibri;
+}
+
+h2 {
+    font-family: quicksand, calibri;
+}
+
+p {
+    font-family: calibri;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+      margin:0;
+      width:100%;
+      height:100vh;
+        background:#ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  header{
+      width:100%; 
+      background:#ffffff;
+  }
+
+  ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      list-style: none;
+      margin: 4%;
+  }
+
+  li {
+    background-color: red;
+    margin: 0 2%;
+  }
+
+  li:hover {
+      background-color: black;
+  }
